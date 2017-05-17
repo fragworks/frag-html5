@@ -1,7 +1,10 @@
+createdWith: pnpm@0.68.0
 dependencies:
+  bulma@^0.4.1: 0.4.1
   pixi.js@^4.5.1: 4.5.1
 packages:
   /bit-twiddle/1.0.2: 0c6c1fabe2b23d17173d9a61b7b7093eb9e1769e
+  /bulma/0.4.1: 620b7986bc552311358aa9393c10905c55648864
   /earcut/2.1.1: 157634e5f3ebb42224e475016e86a5b6ce556b45
   /eventemitter3/2.0.3: b5e1079b59fb5e1ba2771c0a993be060a58c99ba
   /ismobilejs/0.4.1: 1a5f126c70fed39c93da380fa62cbae5723e7dc2

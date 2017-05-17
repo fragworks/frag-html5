@@ -8,9 +8,9 @@ proc example00(ev: Event, n: VNode) =
 
 proc createDom(): VNode =
   result = buildHtml(tdiv()):
-    button(onclick=example00):
+    a(class="button is-primary", onclick=example00):
       text "Example 00"
-    tdiv(id="stats")
     tdiv(id="stage-container")
+    tdiv(id="stats")
 
 setRenderer createDom
