@@ -1,5 +1,6 @@
 type
   Graphics* = object
 
-proc render*(this: Graphics) =
+
+proc render*(graphics: Graphics) =
   discard
