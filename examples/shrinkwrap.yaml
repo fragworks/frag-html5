@@ -1,0 +1,28 @@
+dependencies:
+  pixi.js@^4.5.1: 4.5.1
+packages:
+  /bit-twiddle/1.0.2: 0c6c1fabe2b23d17173d9a61b7b7093eb9e1769e
+  /earcut/2.1.1: 157634e5f3ebb42224e475016e86a5b6ce556b45
+  /eventemitter3/2.0.3: b5e1079b59fb5e1ba2771c0a993be060a58c99ba
+  /ismobilejs/0.4.1: 1a5f126c70fed39c93da380fa62cbae5723e7dc2
+  /mini-signals/1.1.1: 3e65d6f13581a6047c4d0f0ad0b127a33039911b
+  /object-assign/4.1.1: 2109adc7965887cfc05cbbd442cac8bfbb360863
+  /parse-uri/1.0.0: 2872dcc22f1a797acde1583d8a0ac29552ddac20
+  /pixi-gl-core/1.1.0: a52cb4dd3254f9c7857a0e9c2356b00e6ec0c761
+  /pixi.js/4.5.1:
+    dependencies:
+      bit-twiddle: 1.0.2
+      earcut: 2.1.1
+      eventemitter3: 2.0.3
+      ismobilejs: 0.4.1
+      object-assign: 4.1.1
+      pixi-gl-core: 1.1.0
+      resource-loader: 2.0.7
+    resolution: 74464b809fc6cc2b9c26b049ce0bf93096a45d21
+  /resource-loader/2.0.7:
+    dependencies:
+      mini-signals: 1.1.1
+      parse-uri: 1.0.0
+    resolution: 246324c53f78f747cfe575ed3bdc11cff79a2ff7
+registry: 'https://registry.npmjs.org/'
+version: 2
