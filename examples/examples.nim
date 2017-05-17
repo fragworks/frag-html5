@@ -10,5 +10,7 @@ proc createDom(): VNode =
   result = buildHtml(tdiv()):
     button(onclick=example00):
       text "Example 00"
+    tdiv(id="stats")
+    tdiv(id="stage-container")
 
 setRenderer createDom
