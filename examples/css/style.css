@@ -1,3 +1,9 @@
+#stats div {
+  position: relative !important; }
+
+#stage-container {
+  text-align: center; }
+
 /*! bulma.io v0.4.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
